@@ -11,7 +11,7 @@
     margin: auto;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -27,13 +27,13 @@ header{
     width: 100%;
 }
 
-.section-1{
+.header-top{
     height: 150px;
     width: 100%;
     background-color: #e579e6;
 }
 
-.section-2{
+.header-bottom{
     height: 400px;
     width: 100%;
     margin: 20px 0;
@@ -44,10 +44,10 @@ header{
 main{
     width: 100%;
     background-color: #0088fa;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
-.section-3{
+.main-top{
     height: 100px;
     width: 100%;
     background-color: #abcfe7;
@@ -67,7 +67,7 @@ main{
 }
 
 /*FOOTER*/
-.section-4{
+.footer-section{
     height: 50px;
     width: 100%;
     background-color: #8801fe;
